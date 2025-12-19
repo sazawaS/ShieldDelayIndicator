@@ -29,6 +29,7 @@
       "config": "shielddelayindicator.client.mixins.json",
       "environment": "client"
     }
+
   ],
   "depends": {
     "fabricloader": ">=${loader_version}",
