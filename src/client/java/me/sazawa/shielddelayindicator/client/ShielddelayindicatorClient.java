@@ -4,11 +4,13 @@ import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents;
 import net.fabricmc.fabric.api.client.rendering.v1.HudRenderCallback;
 import net.minecraft.client.MinecraftClient;
+import net.minecraft.client.gui.DrawContext;
 import net.minecraft.client.network.ClientPlayerEntity;
 import net.minecraft.item.Items;
 import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.text.Text;
 import net.minecraft.util.Formatting;
+import net.minecraft.util.Identifier;
 
 import javax.swing.*;
 import java.text.Format;
@@ -20,6 +22,7 @@ public class ShielddelayindicatorClient implements ClientModInitializer {
     static int shiledDelayTicks = -1;
     static boolean lastState = false;
 
+    //private static final Identifier SHIELDDELAY_LAYER = Identifier.of("shielddelayindicator", "shielddelayindicator");
 
     public void onInitializeClient() {
 
