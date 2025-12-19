@@ -1,0 +1,75 @@
+{
+  "minecraft:recipes/combat/bow": {
+    "criteria": {
+      "has_string": "2025-12-20 00:55:26 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/fishing_rod": {
+    "criteria": {
+      "has_string": "2025-12-20 00:55:26 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-12-20 00:55:26 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/white_wool_from_string": {
+    "criteria": {
+      "has_string": "2025-12-20 00:55:26 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tripwire_hook": {
+    "criteria": {
+      "has_string": "2025-12-20 00:55:26 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal": {
+    "criteria": {
+      "has_bone": "2025-12-20 00:55:26 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/crossbow": {
+    "criteria": {
+      "has_string": "2025-12-20 00:55:26 +0545"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:snowy_slopes": "2025-12-20 00:55:27 +0545"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/candle": {
+    "criteria": {
+      "has_string": "2025-12-20 00:55:26 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/loom": {
+    "criteria": {
+      "has_string": "2025-12-20 00:55:26 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/bundle": {
+    "criteria": {
+      "has_string": "2025-12-20 00:55:26 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/mojang_banner_pattern": {
+    "criteria": {
+      "has_enchanted_golden_apple": "2025-12-20 00:55:26 +0545"
+    },
+    "done": true
+  },
+  "DataVersion": 4189
+}

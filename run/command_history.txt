@@ -1,0 +1,11 @@
+/tick freeze
+/tick unfreeze
+/time set night
+/gamemode survival
+/summon minecraft:zombie
+/gamemode creative
+/gamemode survival
+/time set day
+/gamemode creative
+/gamemode survival
+/summon minecraft:zombie

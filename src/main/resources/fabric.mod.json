@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "shielddelayindicator",
+  "version": "${version}",
+  "name": "ShieldDelayIndicator",
+  "description": "See the 250ms (5 tick) shield delay for pvp!",
+  "authors": [ "sazawa" ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/shielddelayindicator/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "fabric-datagen": [
+      "me.sazawa.shielddelayindicator.client.ShielddelayindicatorDataGenerator"
+    ],
+    "client": [
+      "me.sazawa.shielddelayindicator.client.ShielddelayindicatorClient"
+    ],
+    "main": [
+      "me.sazawa.shielddelayindicator.Shielddelayindicator"
+    ],
+    "modmenu": [
+      "me.sazawa.shielddelayindicator.client.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "shielddelayindicator.mixins.json",
+    {
+      "config": "shielddelayindicator.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "1.21.X"
+  }
+}
