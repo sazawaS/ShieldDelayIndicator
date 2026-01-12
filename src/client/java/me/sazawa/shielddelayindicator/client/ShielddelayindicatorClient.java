@@ -81,7 +81,7 @@ public class ShielddelayindicatorClient implements ClientModInitializer {
         if (shiledDelayTicks != -1) {
 
 
-            String text = "✓ " + shiledDelayTicks;
+            String text = String.valueOf(shiledDelayTicks);
             int argb = ColorHelper.getArgb(255,85,85);
 
             if (shiledDelayTicks == 3 || shiledDelayTicks == 2 || shiledDelayTicks == 1) {
@@ -90,6 +90,7 @@ public class ShielddelayindicatorClient implements ClientModInitializer {
 
             if (shiledDelayTicks == 0) {
                 argb = ColorHelper.getArgb(	85, 255, 85);
+                text = "✔";
             }
 
             int screenWidth = client.getWindow().getScaledWidth();
